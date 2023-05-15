@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SpacedInvaders.exe" version="1.0.0.0" publicKeyToken="eff0010cac4781f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SpacedInvaders" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SpacedInvaders.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpacedInvaders.exe" size="29632">
+      <assemblyIdentity name="SpacedInvaders" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hAtAccpWRgH3DVLdt/qz0Smqitc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="alien.png" size="1744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5kASXWEyj9oXKSKPvvZ1ljWOmW0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Alien3.bmp" size="4854">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>cj6Tbvep//MzYgW0mOJ4oyhlkac=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ufo.png" size="3375">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>w/Q01PXvB9BfxzIfayfSnT1kl4Y=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-ETNCGBV\Matt" issuerKeyHash="393ad9e3f84dcc0922efdf8e1a83ef6b464d4229" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f/QnmNpr3Leu0YaOlobeVTdXymg=</DigestValue></Reference></SignedInfo><SignatureValue>ovNoOmhgN376IBgDXaBl/ViSmynZVbyPpqo82BfQ6E6HYRhQ2P8RGCypIdcA4lnc9uq/wLqnWQ7/7X2OkUPBtyR8Cs07JlpJ/sM9c3jLM6vdqvXMkZo9dznzwjDMlfOc3G2P1SzbKKfKFiGEy1sLsKaSXYkfJ19ZipjdXWNMn1E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qdkzbgwOQDEd2nrdZW9Sj82syjkMRKp6Mco/DFyLSqiP7ATSTat/16/+Hp7ObreyRxdj2puQ+xB+dT9ZFJ0npl+4LFK+lYl6l707z7ar22btLGYr+9Iniwf3Twohnl7qyeQjATlJXW11ySm0sQyd6P6eEutcW5IIfDIcedOqJbk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="68ca573755de86968e86d1aeb7dc6bda9827f47f" Description="" Url=""><as:assemblyIdentity name="SpacedInvaders.exe" version="1.0.0.0" publicKeyToken="eff0010cac4781f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-ETNCGBV\Matt</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>R4CeuCTxSxh8steASiAOFHe3Z90=</DigestValue></Reference></SignedInfo><SignatureValue>Bnph4W7EHH/1N0W0S4+69B7SqR37Io97llJOW70J9OgfkK9pUg3Y2NobkFoNe5vEWLyVsfcrNOxjJMxubeHqTKFnvzoBVfMpeP68RXTrqQSLm4JgZXEEEY6VqGRR8wGAiO64rkAN5+zyKxLZ6MJ299YFPxD4hAHggSYLfrd1XHo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qdkzbgwOQDEd2nrdZW9Sj82syjkMRKp6Mco/DFyLSqiP7ATSTat/16/+Hp7ObreyRxdj2puQ+xB+dT9ZFJ0npl+4LFK+lYl6l707z7ar22btLGYr+9Iniwf3Twohnl7qyeQjATlJXW11ySm0sQyd6P6eEutcW5IIfDIcedOqJbk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKwPZxzSd1ZpPXxs0G9++qTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEUAVABOAEMARwBCAFYAXAB2AG8AeABwAGwwHhcNMjEwNDA5MTMxMDU4WhcNMjIwNDA5MTkxMDU4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEUAVABOAEMARwBCAFYAXAB2AG8AeABwAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKnZM24MDkAxHdp63WVvUo/NrMo5DESqejHKPwxci0qoj+wE0k2rf9ev/h6ezm63skcXY9qbkPsQfnU/WRSdJ6ZfuCxSvpWJepe9O8+2q9tm7SxmK/vSJ4sH908KIZ5e6snkIwE5SV1tdckptLEMnej+nhLrXFuSCHwyHHnTqiW5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAO3X276hkNpNZ9vAxt+EU7ka7Ca95cDDzKLw+BvlgRUgjd4nfRy0c7kdioRXznBU8J6OOOIAUGtblP6SKOzKVtmRZozgLqkgQ51DG3wjJZVGkgeSzn9Abal+VN9rNOEAkg8KBMtVB873Oq5qJd9Y6TkI0fpAVR6L0OW1htQaX+mo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
