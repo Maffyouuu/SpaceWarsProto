@@ -1,0 +1,2 @@
+This project is a C# prototype for my own rendition of the 1970s "Space Wars" arcade title.
+This was a university project that I decided to undertake to aid myself in OOP.
